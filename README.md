@@ -1,1 +1,17 @@
-# go-examples
+# Go サンプル集
+
+- go-api/ ... net/http, Gin, Echo, Chi による GET(Hello World, PathParameter, Query), POST(JSON, マルチパート) 受信
+- go-config/ ... 設定管理
+- go-db/ ... PostgreSQL の操作および ORM(GORM, Ent) による操作
+- go-mylib/ ... 自作パッケージの使い方
+- go-testify/ ... testify のサンプル
+
+### 今後の予定
+
+- go-log ... log/slog のサンプル
+- go-context ... timeout, cancel, value, DB/HTTP への伝搬
+- go-concurrency ... goroutine, channel, buffered channel, select, worker pool, mutex
+- go-cli ... Cobra
+- go-json ... Marshal, Unmarshal, tag, omitempty, pointer, RawMessage
+- go-auth ... JWT, middleware
+- go-worker ... バッチ処理(cron/queue), ticker, retry, graceful shutdown
