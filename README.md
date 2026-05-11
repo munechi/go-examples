@@ -4,11 +4,11 @@
 - go-config/ ... 設定管理
 - go-db/ ... PostgreSQL の操作および ORM(GORM, Ent) による操作
 - go-mylib/ ... 自作パッケージの使い方
-- go-testify/ ... testify のサンプル
+- go-log/ ... log/slog の使用例(SetDefault, 依存性注入)
+- go-testify/ ... testify の使用例
 
 ### 今後の予定
 
-- go-log ... log/slog のサンプル
 - go-context ... timeout, cancel, value, DB/HTTP への伝搬
 - go-concurrency ... goroutine, channel, buffered channel, select, worker pool, mutex
 - go-cli ... Cobra
