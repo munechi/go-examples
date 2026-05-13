@@ -1,0 +1,20 @@
+[
+  {
+    "type": "foo",
+    "data": {
+      "name": "Taro",
+      "age": 20
+    }
+  },
+  {
+    "type": "bar",
+    "data": {
+      "address": "Tokyo",
+      "email": "jiro@sample.com"
+    }
+  },
+  {
+    "type": "buz",
+    "data": {}
+  }
+]
